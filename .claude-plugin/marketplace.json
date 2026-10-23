@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "bithyte",
+  "description": "Claude Code plugins from bithyte",
+  "owner": {
+    "name": "Cozmin"
+  },
+  "plugins": [
+    {
+      "name": "jaypost",
+      "description": "Send Claude Code permission prompts and questions to your phone on Telegram or Discord",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/bithyte/jaypost.git",
+        "path": "claude-plugin",
+        "ref": "main"
+      },
+      "homepage": "https://bithyte.github.io/jaypost/",
+      "repository": "https://github.com/bithyte/jaypost",
+      "license": "Apache-2.0"
+    }
+  ]
+}
