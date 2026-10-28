@@ -1,0 +1,17 @@
+{
+  "description": "Blocks git commit and gh pr create/edit commands whose message has a Claude Co-Authored-By line or the Claude Code PR footer",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/src/attribution/cli.ts\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
