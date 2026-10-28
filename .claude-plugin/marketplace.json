@@ -21,6 +21,13 @@
       "license": "Apache-2.0"
     },
     {
+      "name": "code",
+      "description": "Review hand edits against the repo's own rules, then finish what they left undone: tests, edge cases, bugs, docs",
+      "category": "development",
+      "source": "./plugins/code",
+      "license": "Apache-2.0"
+    },
+    {
       "name": "session",
       "description": "End a long session with a handoff doc in docs/sessions/ that a fresh session can pick up from",
       "category": "productivity",

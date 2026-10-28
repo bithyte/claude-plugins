@@ -1,0 +1,9 @@
+{
+  "name": "code",
+  "description": "Review hand edits against the repo's own rules, then finish what they left undone: tests, edge cases, bugs, docs",
+  "version": "0.1.0",
+  "author": {
+    "name": "Cozmin"
+  },
+  "license": "Apache-2.0"
+}

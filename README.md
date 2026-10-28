@@ -4,6 +4,7 @@ Claude Code plugin marketplace for bithyte.
 
 ```
 /plugin marketplace add bithyte/claude-plugins
+/plugin install code@bithyte
 /plugin install jaypost@bithyte
 /plugin install session@bithyte
 /plugin install tweaks@bithyte
@@ -13,6 +14,7 @@ Claude Code plugin marketplace for bithyte.
 
 | Plugin                                        | What it does                                                                                                                                              |
 | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [code](plugins/code)                          | `/code:ingest` reviews hand edits against the repo's rules, then writes the missing tests, fixes bugs and finishes the rest                               |
 | [jaypost](https://github.com/bithyte/jaypost) | Sends permission prompts and questions to Telegram or Discord                                                                                             |
 | [session](plugins/session)                    | `/session:wrap` writes a handoff doc to `docs/sessions/` for a fresh session                                                                              |
 | [tweaks](plugins/tweaks)                      | `/tweaks:no-attributions` hides commit and PR attribution in `~/.claude/settings.json`; a hook blocks commits and PRs with a Claude `Co-Authored-By` line |
