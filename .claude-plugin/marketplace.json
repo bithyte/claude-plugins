@@ -19,6 +19,13 @@
       "homepage": "https://bithyte.github.io/jaypost/",
       "repository": "https://github.com/bithyte/jaypost",
       "license": "Apache-2.0"
+    },
+    {
+      "name": "session",
+      "description": "End a long session with a handoff doc in docs/sessions/ that a fresh session can pick up from",
+      "category": "productivity",
+      "source": "./plugins/session",
+      "license": "Apache-2.0"
     }
   ]
 }

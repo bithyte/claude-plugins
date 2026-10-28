@@ -1,0 +1,9 @@
+{
+  "name": "session",
+  "description": "End a long session with a handoff doc in docs/sessions/ that a fresh session can pick up from",
+  "version": "0.1.0",
+  "author": {
+    "name": "Cozmin"
+  },
+  "license": "Apache-2.0"
+}
